@@ -1,8 +1,21 @@
 #include <iostream>
-
+using namespace std;
 int main()
 {
-	std::cout << "Hello World";
-	system("pause");
+	cout << "my name is mohamed" <<  endl;
+	
+	 cout << "mohamed";
+
+
+
+
+
+
+
+
+
+
+
+
 	return 0;
 }
