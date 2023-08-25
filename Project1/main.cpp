@@ -6,16 +6,5 @@ int main()
 	
 	 cout << "mohamed";
 
-
-
-
-
-
-
-
-
-
-
-
 	return 0;
 }
