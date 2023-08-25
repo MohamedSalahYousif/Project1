@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	cout << "my name is yassin" <<  endl;
+	cout << "my name is omar" <<  endl;
 	
 	return 0;
 }
