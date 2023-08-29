@@ -36,5 +36,8 @@
     <ClCompile Include="Right-angled pyramid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pyramid2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
