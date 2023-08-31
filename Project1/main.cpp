@@ -12,8 +12,8 @@ void Numbers() {
 	cout << "for odd numbers choose 1 " << endl;
 	cout << "for even numbers choose 2 " << endl;
 	cout << "for prime numbers choose 3 " << endl;
-
 	cin >> option;
+
 	if (option == 1) {
 		cout << "Odd numbers from 1 to " << max << " is : ";
 		for (int i = 1; i <= max; i++) {
@@ -104,37 +104,36 @@ int pyramid2()
 	int height;
 	cout << "Please,enter the hieght : ";
 	cin >> height;
-	int  spaces = height - 1;
+	int  spaces = height-2 ;
 	int sp = 1;
 	int stars = height * 2 - 1;
-	for (int i = 1; i <= height; i++) {
+	int spa = height - 1;
+	int var = height - 2;
+	int star = stars / 2 + 1;
+	for (int m = 1; m <= spa; m++) {
+		cout << " ";
+	}
+	cout << "*" << endl;
+		for (int i = 1; i <= var; i++) {
 
-		for (int j = 1; j <= spaces; j++) {
-			cout << " ";
-		}
-		cout << "*";
+			for (int j = 0; j < spaces; j++) {
+				cout << " ";
+			}
+			cout << "*";
 
-		if (i != 1) {
-			for (int k = 1; k <= sp; k++) {
+			for (int k = 0; k < sp; k++) {
 				cout << " ";
 			}
 
-			cout << "*hnn";
+			cout << "*";
+			cout << endl;
+			sp += 2;
+			spaces--;
 		}
-
-		//else if (i == 1) {
-		//	cout << "*";
-	//	}
-		//else {
-		//	for (int q = 0; q <= stars; q++) {
-		//		cout << "*";
-		//	}
-		//}
-
-		cout << endl;
-		sp += 2;
-		spaces--;
-	}
+		for (int m = 1; m <= star; m++) {
+			cout << "* ";
+		}
+		
 	return 0;
 
 }
@@ -142,9 +141,9 @@ int pyramid2()
 int rectangle()
 {
 	int length, w;
-	cout << "Please,enter the length of rectangular  : ";
+	cout << "Please,enter the length of rectangular : ";
 	cin >> length;
-	cout << "Please,enter the width of rectangular  : ";
+	cout << "Please,enter the width of rectangular : ";
 	cin >> w;
 	int spaces = w - 2;
 
@@ -264,19 +263,19 @@ int main()
 		if (choice2 == 1) {
 			pyramid();
 		}
-		else if (choice == 2) {
+		else if (choice2 == 2) {
 			square();
 		}
-		else if (choice == 3) {
+		else if (choice2 == 3) {
 			rectangle();
 		}
-		else if (choice == 4) {
+		else if (choice2 == 4) {
 			pyramid2();
 		}
-		else if (choice == 5) {
+		else if (choice2 == 5) {
 			angled_pyramid();
 		}
-		else if (choice == 6) {
+		else if (choice2 == 6) {
 			right_inverted_pyramid();
 		}
 
