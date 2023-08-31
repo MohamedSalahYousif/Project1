@@ -1,9 +1,10 @@
-/*
 
+/*
 #include <iostream>
 using namespace std;
-int main()
-{
+int main(){
+
+	int Numbers(){
 	int max, option,sum=0,average;
 	int aver = 0;
 	int sum2 = 0;
@@ -72,6 +73,5 @@ int main()
 	else {
 		cout << "please choose 1,2 or 3 only";
 	}
-	return 0;
 }
-*/
+	*/

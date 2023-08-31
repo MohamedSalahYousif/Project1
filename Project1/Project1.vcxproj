@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="mainmain.cpp" />
     <ClCompile Include="pyramid2.cpp" />
     <ClCompile Include="Right-angled inverted pyramid.cpp" />
     <ClCompile Include="rectangle of stars.cpp" />

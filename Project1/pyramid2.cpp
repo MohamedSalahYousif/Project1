@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 int main()
 {
@@ -8,7 +8,7 @@ int main()
 	int  spaces = height - 1;
 	int sp = 1;
 	int stars = height * 2 - 1;
-	for (int i = 1; i <= height; i++) {
+	for (int i = 1; i < height; i++) {
 
 		for (int j = 1; j <= spaces; j++) {
 			cout << " ";
@@ -20,22 +20,23 @@ int main()
 			cout << " ";
 			}
 
-			cout << "*hnn";
+			cout << "*";
 	}
-
+	
 		//else if (i == 1) {
 		//	cout << "*";
 	//	}
 		//else {
-		//	for (int q = 0; q <= stars; q++) {
-		//		cout << "*";
-		//	}
+			
 		//}
 	
 		cout << endl;
 		sp +=2;
 		spaces--;
 	}
-
+	for (int q = 0; q <= stars; q++) {
+		cout << "*";
+	}
 	return 0;
 }
+*/
