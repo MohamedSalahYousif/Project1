@@ -127,15 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mainmain.cpp" />
-    <ClCompile Include="pyramid2.cpp" />
-    <ClCompile Include="Right-angled inverted pyramid.cpp" />
-    <ClCompile Include="rectangle of stars.cpp" />
-    <ClCompile Include="Odd and even numbers.cpp" />
-    <ClCompile Include="inverted pyramid.cpp" />
-    <ClCompile Include="Pyramid of stars.cpp" />
-    <ClCompile Include="Right-angled pyramid.cpp" />
-    <ClCompile Include="square of stars.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
