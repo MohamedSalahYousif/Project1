@@ -1,12 +1,12 @@
-
+/*
 #include <iostream>
 using namespace std;
 
 void Numbers() {
 	int max, option, sum = 0, average;
-	int aver = 0;
-	int sum2 = 0;
-	int sum3 = 0;
+		int aver = 0;
+		int sum2 = 0; 
+	    int sum3 = 0;
 	cout << "Please,enter the maximum value : ";
 	cin >> max;
 	cout << "for odd numbers choose 1 " << endl;
@@ -287,3 +287,4 @@ int main()
 	return 0;
 }
 
+*/
